@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Press Start 2P", sans-serif;
+}
+
+button {
+    background-color: #555;
+    outline: none;
+    border-radius: 30px;
+    cursor:pointer;
+    
+}
+
+img {
+    padding: 30px;
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+}
+
+body {
+    height: 75vh;
+
+  background-color: #333;
+  color:gold;
+  text-align: center;
+
+}
+
+header {
+    height: 25vh;
+  background-color: #222;
+}
+
+.again {
+    display: none;
+    margin: auto;
+    border-radius: 0;
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+    /* position: absolute;
+    top: 2.5rem;
+    left: 2.5rem; */
+
+    /* bottom: 3rem;
+    left: 37rem; */
+    background-color: #999;
+}
+
+.game-title {
+  font-size: 50px;
+  padding: 50px 0;
+  color: aquamarine;
+}
+
+.message {
+    font-size: 20px;
+    color: tomato;
+    padding: 25px 0;
+   font-style: italic;
+}
+
+.main-content {
+    padding: 50px 0;
+    display: flex;
+    
+}
+
+.column { 
+    width: 50%;
+}
+
+.left {
+    border-right: 5px solid white;
+}
+.right {
+    border-left: 5px solid white;
+}
+
+.user {
+    padding: 20px 0 50px 0;
+}
+
+.random-pick {
+
+    color:orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    font-size: 60px;
+    background-color: #222;
+    border-radius: 30px;
+}
+
+.random-pick-rock {
+    display: none;
+
+    background: url(rock.png)  no-repeat  center ;
+    background-size: cover;
+    
+}
+
+.random-pick-paper {
+    display: none;
+
+    background: url(paper.png)  no-repeat  center ;
+    background-size: cover;
+    
+}
+.random-pick-scissors {
+    display: none;
+
+    background: url(scissors.png)  no-repeat  center ;
+    background-size: cover;
+    
+}
+
+
+.label-score {
+    margin-top: 50px;
+    font-size: 25px;
+    color: #3EB489;
+}

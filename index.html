@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="game-title">Rock Paper Sciccors</h1>
+      <p class="message">Race to 5. May the best player win!</p>
+
+    </header>
+    <main>
+      <section class="main-content">
+        <section class="column left">
+          <h2 class="user player">🤵 Player</h2>
+          <div class="btn-container">
+            <button type="button" class="btn btn-player rock">
+              <img src="rock.png" alt="Image of rock" srcset=""/>
+            </button>
+            <button type="button" class="btn btn-player paper">
+              <img src="paper.png" alt="Image of paper" srcset="" />
+            </button>
+            <button type="button" class="btn btn-player scissors">
+              <img src="scissors.png" alt="Image of scissors" srcset="" />
+            </button>
+          </div>
+          <p class="label-score">💯 Score: <span class="score score-player">0</span></p>
+        </section>
+        <section class="column right">
+          <h2 class="user computer">🖥️ Computer</h2>
+          <div class="random-pick"><img src="question.png" alt="Question mark" srcset="" class="question"></div>
+          <p class="label-score">💯 Score: <span class="score score-computer">0</span></p>
+        </section>
+
+
+      </section>
+    </main>
+
+    <div>
+        <button class="btn again">Again!</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
